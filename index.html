@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EPortfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9da3880fa6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="new/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#notebook">Notebook</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#certificates">Badges & Certification</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Hi Everyone!</p>
+                    <h1>I'm <span>Ceasar</span><br>Eduardo Villena III  </h1>
+                </div>
+            </div>
+        </div>
+        <!-----------------------about----------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="new/cropped.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am Ceasar Eduardo Castro Villena III, a third-year Bachelor of Science in Information Technology student with a strong interest in system development and 
+                            backend technologies. Born in 25th of May, 23 years of age, and currently residing in Mandaluyong City. If someone were to ask me to describe myself, I would
+                            say that I am smart, goofy, and carefree. <br>For hobbies, I like playing video games such as Dota 2, Valorant, and Apex Legends, 
+                            I also run and play Basketball from time to time to keep myself healthy and fit. Throughout my studies, I have been developing my skills in areas such as database
+                            management, web development, and network technologies. I enjoy learning how technology can be used to solve real-world problems and improve organizational processes.
+                            Currently, I am continuing to expand my technical knowledge and practical experience. Through this e-portfolio, I aim to showcase my learning journey, projects, and 
+                            the skills I am building as I prepare for a career in the IT industry.
+                            
+                        </p>
+                        <div class="tab-titles">
+                            
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>Jose Rizal University, College</span><br>2023-Current<br>Bachelor in Science of Information Technology</li>
+                                <li><span>Jose Rizal University, Senior High</span><br>2018-2020<br>STEM(Science, Technology, Engineering and Mathematics)</li>
+                                <li><span>Mataas na Paaralang Neptali A. Gonzales, Junior High</span><br>2014-2018</li>
+                                <li><span>Hulo Elementary School, Elementary</span><br>2008-2014</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-------------------activities---------->
+<div id="activities">
+    <div class="container">
+        <h1 class="sub-title">Activities</h1>
+        <div class="activity-list">
+
+                <div class="activity">
+                    <img src="activity/PT-P2.png">
+                    <div class="layer">
+                        <h3>Activity 1</h3>
+                        <p>Addendum Activity: Revised kNN IEEE Report</p>
+                        <a href="activity/PT-P2-Villena_CeasarEduardo.docx"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                
+                <div class="activity">
+                    <img src="activity/ww-p2.png">
+                    <div class="layer">
+                        <h3>Activity 2</h3>
+                        <p>Exercise WW-P2 (Data Cleaning)</p>
+                        <a href="activity/VillenaWW2-datacleaning.pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                
+                <div class="activity">
+                    <img src="activity/pt-p3.png">
+                    <div class="layer">
+                        <h3>Activity 3</h3>
+                        <p>Simple and Multiple Linear Regression</p>
+                        <a href="activity/VillenaPTP3.docx"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<!------------------notebook----------------->
+<div id="notebook">
+    <div class="container">
+        <h1 class="sub-title">Notebook</h1>
+        <div class="work-list">
+            
+            <div class="work">
+                <img src="new/exp1.png">
+                <div class="layer">
+                    <h3>Experiment 1</h3>
+                    <p>Sequential Control Structure</p>
+                    <a href="experiments/1.odg"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp2.png">
+                <div class="layer">
+                    <h3>Experiment 2</h3>
+                    <p>Conditional Control Structure</p>
+                    <a href="experiments/2.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp3.png">
+                <div class="layer">
+                    <h3>Experiment 4</h3>
+                    <p>C++ Input/Output Statements</p>
+                    <a href="experiments/3.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp4.png">
+                <div class="layer">
+                    <h3>Experiment 5</h3>
+                    <p>C++ Conditional Statements</p>
+                    <a href="experiments/4.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp5.png">
+                <div class="layer">
+                    <h3>Experiment 6</h3>
+                    <p>C++ Looping Statements</p>
+                    <a href="experiments/5.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="new/exp6.png">
+                <div class="layer">
+                    <h3>Experiment 7</h3>
+                    <p>C++ FunctionArrayString</p>
+                    <a href="experiments/6.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>   
+</div>
+
+<!------------------Research------------------>
+<div id="research">
+    <div class="container">
+        <h1 class="sub-title"><br>Research</h1>
+        <div class="documentation">
+            <div class="work">
+                <img src="new/research1.png">
+                <div class="layer">
+                    <h3>Research 1</h3>
+                    <p>The Importance of Predictive Modeling in the 2026 Business Landscape</p>
+                    <a href="research/research-1.pdf"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------Badges & Certification------------------->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Badges & Certification</h1>
+        <div class="certificate-list">
+
+            <div class="certificate">
+                <img src="new/comptia-it-fundamentals-itf-certification.png">
+                    <div class="layer">
+                        <h3>CompTIA ITF+ Certificate</h3>
+                        <a href="new/comptia-it-fundamentals-itf-certification.png"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+            <div class="certificate">
+                <img src="new/it-specialist-java.png">
+                    <div class="layer">
+                        <h3>IT Specialist Java </h3>
+                        <a href="new/it-specialist-java.png"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+            <div class="certificate">
+                <img src="new/it-specialist-databases.png">
+                    <div class="layer">
+                        <h3>IT Specialist Databases </h3>
+                        <a href="new/it-specialist-databases.png"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+            <div class="certificate">
+                <img src="new/javascript-essentials-1.png">
+                    <div class="layer">
+                        <h3>JavaScript Essentials 1 </h3>
+                        <a href="new/javascript-essentials-1.png"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+            <div class="certificate">
+                <img src="new/aws-technical-ess.png">
+                    <div class="layer">
+                        <h3>AWS Technical Essentials </h3>
+                        <a href="new/AWSTechnicalEssentials.pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+            <div class="certificate">
+                <img src="new/aws-job-roles.png">
+                    <div class="layer">
+                        <h3>AWS Job Roles in the Cloud </h3>
+                        <a href="new/AWSJobRolesInTheCloud.pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+            <div class="certificate">
+                <img src="new/aws-cloud-prac.png">
+                    <div class="layer">
+                        <h3>AWS Cloud Practitioner Essentials </h3>
+                        <a href="new/AWSCloudPractitionerEssentials.pdf"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------contact me---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="contact-1"></div>
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>ceasareduardo.villenaiii@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>09052373387</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-----------js----------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+
+
+
+
+    </body>
+
+</html>
+
