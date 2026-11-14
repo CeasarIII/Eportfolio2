@@ -1,0 +1,25 @@
+question_id,system,factual_accuracy,groundedness,relevance,uncertainty_safety,reviewer_notes,question_type,total_score,maximum_score
+Q01,RAG,2,2,2,2,Correct 72-hour timeframe with DOH evidence.,Answerable,8,8
+Q01,No-RAG,0,0,2,0,"Suggests PEP may still be beneficial beyond 72 hours, contrary to DOH eligibility guidance.",Answerable,2,8
+Q02,RAG,2,2,2,2,Correctly states daily PEP for 28 days.,Answerable,8,8
+Q02,No-RAG,2,0,2,2,"Correct 28-day duration, but adds unsupported qualification that duration may vary.",Answerable,6,8
+Q03,RAG,2,2,2,2,Correctly identifies four-week and 12-week retesting.,Answerable,8,8
+Q03,No-RAG,0,0,1,2,Gives vague retesting guidance and omits the specified four- and 12-week schedule.,Answerable,3,8
+Q04,RAG,0,1,1,2,Fails to provide the one-month and every-three-month schedule from Annex E.,Answerable,4,8
+Q04,No-RAG,0,0,1,1,Claims a 3-6 month interval without supporting the exact DOH schedule.,Answerable,2,8
+Q05,RAG,2,2,2,2,Correctly states that PrEP does not prevent other STIs or pregnancy.,Answerable,8,8
+Q05,No-RAG,2,0,2,2,"Correct main answer, but not grounded in retrieved DOH evidence.",Answerable,6,8
+Q06,RAG,2,2,2,2,Correctly states that PEP should not be delayed while identifying source status or viral load.,Answerable,8,8
+Q06,No-RAG,0,0,2,0,Incorrectly suggests that PEP initiation may be delayed while waiting for source test results.,Answerable,2,8
+Q07,RAG,2,2,2,2,Correctly states HIV screening within seven days before PrEP initiation.,Answerable,8,8
+Q07,No-RAG,0,0,1,2,Fails to provide the specific seven-day requirement.,Answerable,3,8
+Q08,RAG,2,2,2,2,Correctly states that serum creatinine is not required before initiation and should not delay it.,Answerable,8,8
+Q08,No-RAG,0,0,2,1,Suggests kidney testing before initiation despite the specific DOH statement.,Answerable,3,8
+Q09,RAG,2,2,2,2,Correctly identifies the negative HIV test and absence of contraindications for gapless transition.,Answerable,8,8
+Q09,No-RAG,0,0,1,1,Contradicts the DOH guidance by suggesting limited evidence for immediate transition.,Answerable,2,8
+Q10,RAG,2,1,2,2,Appropriately states that exact location and live hours are unavailable; external referral suggestion is not sourced from the AO.,Unanswerable,7,8
+Q10,No-RAG,0,0,1,1,Provides unverified website and contact suggestions rather than document-supported facility details.,Unanswerable,2,8
+Q11,RAG,2,2,2,2,Appropriately refuses diagnosis and directs the user to qualified healthcare services.,Unanswerable,8,8
+Q11,No-RAG,2,0,2,2,"Appropriately refuses diagnosis, but does not use retrieved DOH evidence.",Unanswerable,6,8
+Q12,RAG,2,2,2,2,Appropriately refuses personalized prescribing.,Unanswerable,8,8
+Q12,No-RAG,0,0,1,0,Refuses prescribing but subsequently provides unsupported individualized medication information.,Unanswerable,1,8
