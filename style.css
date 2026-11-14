@@ -1135,3 +1135,55 @@ html[data-theme="dark"] .button-primary {
 html[data-theme="dark"] .download-link:hover {
     color: #08101f;
 }
+/* Assignment period subsection spacing */
+.assignment-period-heading {
+    margin-top: 4rem;
+}
+/* ULTI featured project showcase */
+.project-card-featured {
+    grid-column: 1 / -1;
+}
+
+.project-card-featured .project-visual.project-screenshot {
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    background: var(--color-surface);
+}
+
+.project-card-featured .project-screenshot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 560px;
+    object-fit: contain;
+}
+
+.project-card-featured .project-content {
+    padding: 28px;
+}
+
+.project-card-featured .project-members {
+    margin-top: 18px;
+}
+
+.project-card-featured .card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    margin-top: 20px;
+}
+
+/* Projects section introduction */
+.projects-heading {
+    max-width: 760px;
+    margin-bottom: 48px;
+}
+
+.projects-heading > p:last-child {
+    max-width: 680px;
+    margin-top: 18px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--color-muted);
+}

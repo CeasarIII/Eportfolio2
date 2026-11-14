@@ -1,0 +1,64 @@
+﻿timestamp,question,answer,source_pages,retrieval_seconds,generation_seconds,total_seconds,status
+2026-11-10T06:57:24,Within how many hours should PEP be started?,"According to the excerpts, PEP should be started within 72 hours of a known or suspected exposure to HIV. This is mentioned in Evidence 2, Source: AO-2026-0005-Guidelines-on-Differentiated-Service-Delivery-for-Pre-Exposure-Prophylaxis-PrEP-and-Post-Exposure-Prophylaxis-PEP-in-the-Prevention-of-HIV-in-the-Philippines-1-1.pdf, PDF page 8, section B. Post-Exposure Prophylaxis (PEP), point 1.
+
+DOH source pages: 8, 9, 14, 16, 24","8, 9, 14, 16, 24",0.029541373000029125,18.561013454000204,18.60368454499985,success
+2026-11-10T06:59:06,What are the eligibility requirements for PrEP?,"Based on the provided excerpts, the eligibility requirements for PrEP are as follows:
+
+A. PrEP shall be recommended for persons with a substantial risk of acquiring HIV. Specifically, PrEP shall be offered to the following:
+
+i. Sexual partner of a person living with HIV who is not virally suppressed despite on HIV treatment;
+ii. Persons with recent or probable future inconsistent use of condoms for vaginal or anal sex;
+iii. Persons with recent sexually transmitted infection (STI);
+iv. Persons with recent PEP use for sexual exposure to HIV, especially for persons who have used PEP more than once;
+v. People who inject drugs (PWID) and people who use drugs (PWUD);
+vi. Persons who request PrEP shall be given priority as it may indicate the likelihood of HIV exposure; and
+vii. Persons who screen non-reactive and test negative for HIV shall be routinely offered PrEP.
+
+B. PrEP is NOT appropriate and shall not be given to:
+
+i. People living with HIV;
+ii. People with a known or suspected HIV exposure within the past 72 hours (e.g., due to sexual assault, occupational exposure, or other one-time incidents);
+iii. People with suspected Acute HIV infection manifesting with signs of ARS and with a potential HIV exposure in the previous 14 days;
+iv. People with a contraindication, allergy or hypersensitivity to components of the PrEP product;
+v. People with renal impairment (eGFR < 60ml/min per 1.73 m?); and
+vi. People unwilling or
+
+DOH source pages: 1, 5, 6, 16, 23","1, 5, 6, 16, 23",0.025030106999111013,22.197080870999343,22.236206432999097,success
+2026-11-10T07:01:09,How long is the PEP regimen?,"According to the excerpts, the PEP regimen is 28 days. This is stated in Evidence 1, Section e, iii, which reads: ""iii. PEP should be taken within 72 hours and be continued daily for 28 days.""
+
+DOH source pages: 9, 10, 16, 23","9, 10, 16, 23",0.018271726999955717,4.85745266900085,4.8851378799990925,success
+2026-11-10T07:01:47,What laboratory tests are recommended before PrEP initiation?,"Based on the provided excerpts, the following laboratory tests are recommended before PrEP initiation:
+
+A. Required before initiation:
+
+1. HIV screening (within seven days before PrEP initiation) [Evidence 2, PDF page 14]
+2. HBsAg testing (at PrEP initiation or within one to three months of initiation) [Evidence 1, PDF page 16]
+3. Anti-HCV testing (at PrEP initiation or within one to three months of initiation) [Evidence 1, PDF page 16]
+
+B. Recommended or suggested at initiation:
+
+1. STI screening (at initiation and every three to six months thereafter) [Evidence 1, PDF page 16]
+	* Gonorrhea
+	* Chlamydia
+	* Syphilis
+2. Kidney function testing (optional, depending on age and comorbidities) [Evidence 5, PDF page 15]
+
+C. Optional or risk-based testing:
+
+1. Serum creatinine testing (optional, depending on age and comorbidities) [Evidence 5, PDF page 15]
+2. Anti-HBs testing (for HBsAg negative individuals, to evaluate for HBV vaccination) [Evidence 1, PDF page 16]
+
+Note that the excerpts do not mention any requirement for laboratory tests to delay PrEP initiation. Serum creatinine testing is not universally required before PrEP initiation and should not delay it.
+
+DOH source pages: 6, 14, 15, 16","6, 14, 15, 16",0.014086440000028233,21.443883251000443,21.466590079000525,success
+2026-11-10T07:02:59,Does PrEP protect against other sexually transmitted infections?,"According to the provided excerpts, PrEP does not offer protection against other sexually transmitted infections (STIs) or pregnancy. This is explicitly stated in Annex F: Key Counselling Messages for Pre-Exposure Prophylaxis (PrEP) (Evidence 2, PDF page 22):
+
+""PrEP does not offer prevention against other STIs or pregnancy.""
+
+This information is also mentioned in the Guide Notes: A. PrEP pre-initiation counseling (Evidence 4, PDF page 16):
+
+""PrEP limitation in that it prevents only HIV and not other STIs or unwanted pregnancies.""
+
+Therefore, PrEP is specifically designed to prevent HIV acquisition, but not other STIs or pregnancy.
+
+DOH source pages: 1, 5, 16, 22, 23","1, 5, 16, 22, 23",0.0173972259999573,10.54280929199922,10.571992360999502,success
